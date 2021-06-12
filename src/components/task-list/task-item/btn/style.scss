@@ -1,0 +1,28 @@
+.btn {
+  width:140px;
+  text-align:center;
+ 
+  font-family: arial;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(2, 112, 35);
+  border: #10FF58 1px solid;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  transition: .5s;
+  border-radius: 0px;
+  background-color: white;
+  outline-style: none;
+
+  &:hover {
+    top: 5px;
+    transition: .5s;
+    border-radius: 10px;
+    border: red 1px solid;
+    color: red;
+  }
+
+}

@@ -1,0 +1,27 @@
+.btnFilter {
+  width:160px;
+  text-align:center;
+ 
+  font-family: arial;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(13, 61, 83);
+  border: rgb(0, 114, 129) 1px solid;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  transition: .5s;
+  border-radius: 0px;
+  background-color: rgb(136, 213, 248);
+  outline-style: none;
+
+  &:hover {
+    top: 5px;
+    transition: .5s;
+    border-radius: 10px;
+  }
+}
+
+
